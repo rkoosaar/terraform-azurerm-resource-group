@@ -47,6 +47,12 @@ module "az-resource-group" {
 | az_rg_location | The Azure Region where the Resource Group should exist | `string` | yes |
 | az_tags | A mapping of tags which should be assigned to all resources | `map` | no |
 
+## Outputs
+
+| Name | Description |
+| --- | --- |
+| az-rg-name | Resource azurerm_resource_group name |
+| az-rg-location | Resource azurerm_resource_group location |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
