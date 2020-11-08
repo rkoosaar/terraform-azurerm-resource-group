@@ -4,7 +4,7 @@ Terraform module for creating and managing Azure Resource Group resources
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Latest Release](https://img.shields.io/github/v/release/rkoosaar/terraform-azurerm-resource-group?cacheSeconds=36)](https://github.com/rkoosaar/terraform-azurerm-resource-group/releases/latest)
-[![TF Registry](https://img.shields.io/badge/terraform-registry-blue.svg)](https://registry.terraform.io/modules/rkoosaar/controller/unifi)
+[![TF Registry](https://img.shields.io/badge/terraform-registry-blue.svg)](https://registry.terraform.io/modules/rkoosaar/resource-group/azurerm/)
 
 ## Examples
 
