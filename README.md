@@ -25,7 +25,7 @@ module "az-resource-group" {
     Environment   = "Development"
     CostCenter    = "Department"
     ResourceOwner = "Example Owner"
-    Project       = "Project Name"
+    Project       = "Example Project Name"
     Role          = "Resource Group"
   }
 }
