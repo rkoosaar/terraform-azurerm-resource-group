@@ -1,3 +1,7 @@
+provider "azurerm" {
+  features {}
+}
+
 module "az-resource-group" {
   source = "../modules/terraform-azurerm-resource-group"
 

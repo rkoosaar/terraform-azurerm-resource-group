@@ -9,6 +9,10 @@ Terraform module for creating and managing Azure Resource Group resources
 ## Examples
 
 ```
+provider "azurerm" {
+  features {}
+}
+
 module "az-resource-group" {
   source = "../modules/terraform-azurerm-resource-group"
 
@@ -31,13 +35,13 @@ module "az-resource-group" {
 
 | Name | Version |
 | --- | --- |
-| terraform | >= 0.13 |
+| terraform | >= 1.0.0 |
 
 ## Providers
 
 | Name | Version |
 | --- | --- |
-| azurerm | >= 2.35.0 |
+| azurerm | >= 2.62.1 |
 
 ## Inputs
 
@@ -70,7 +74,7 @@ Please use the [issue tracker](https://github.com/rkoosaar/terraform-azurerm-res
 
 ## Copyrights
 
-Copyright © 2020 Raiko Koosaar
+Copyright © 2021 Raiko Koosaar
 
 ### Contributors
 
